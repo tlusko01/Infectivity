@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Infectivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="play">Play</string>
+    <string name="load_game">Load Game</string>
+    <string name="select_name_of_disease">Name of Disease</string>
+
+</resources>

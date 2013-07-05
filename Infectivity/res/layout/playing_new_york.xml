@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <ImageView
+        android:id="@+id/img_background_new_york"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_new_york" />
+
+    <ImageView
+        android:id="@+id/img_queens_infected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="232dp"
+        android:src="@drawable/qeens_infected" />
+
+    <ImageView
+        android:id="@+id/img_bedford_infected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="138dp"
+        android:src="@drawable/bedford_infected" />
+
+    <ImageView
+        android:id="@+id/img_newyork_infected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/new_york_infected" />
+
+    <ImageView
+        android:id="@+id/img_brooklyn_infected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/brooklyn_infected" />
+
+    <ImageView
+        android:id="@+id/img_rikers_island_infected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="342dp"
+        android:src="@drawable/rikers_island_infected" />
+    
+    <include
+        android:id="@+id/inc_bottom_navigation_include"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/include_navigation_bottom" />
+
+</FrameLayout>

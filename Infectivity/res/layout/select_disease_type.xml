@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button_bacterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacterial" />
+
+    <Button
+        android:id="@+id/button_fungal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="Fungal" />
+
+    <Button
+        android:id="@+id/button_parasite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp"
+        android:text="Parasite" />
+
+    <Button
+        android:id="@+id/button_prions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_bacterial"
+        android:layout_centerVertical="true"
+        android:text="Prions" />
+
+    <Button
+        android:id="@+id/button_viral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_prions"
+        android:layout_alignBottom="@+id/button_prions"
+        android:layout_alignLeft="@+id/button_fungal"
+        android:text="Viral" />
+
+    <Button
+        android:id="@+id/button_bioweapon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_viral"
+        android:layout_alignBottom="@+id/button_viral"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:text="Bio Weapon" />
+
+</RelativeLayout>
